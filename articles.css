@@ -1,0 +1,63 @@
+*{
+    font-size:100%;
+    font-family: "Montserrat", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} 
+body, html {
+    height: 100%;
+} 
+.sp-logo{
+    color:black;
+}
+a:hover{
+    color:#03989E;
+}
+.navbar{
+    box-shadow: 0px 1px 15px black;
+}
+.jumbotron-fluid{
+    background: url("img/bg.webp") center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.btn-blog {
+    color: #ffffff;
+    background-color: #37d980;
+    border-color: #37d980;
+    border-radius:0;
+    margin-bottom:10px
+}
+.btn-blog:hover,
+.btn-blog:focus,
+.btn-blog:active,
+.btn-blog.active,
+.open .dropdown-toggle.btn-blog {
+    color: white;
+    background-color:#34ca78;
+    border-color: #34ca78;
+}
+ h2{
+     color:#34ca78;
+    }
+ .margin10{
+     margin-bottom:10px; margin-right:10px;
+    }
+ .blogShort{ 
+    border-bottom:1px solid #ddd;
+}
+ .add{
+    background: #333; padding: 10%; height: 300px;
+}
+
+.pull-left{
+    height:6em;
+    display: flex;
+    justify-content:space-around;
+    font-size:1em;   
+}
+article p{
+    display: flex;
+    justify-content: end;
+}

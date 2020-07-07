@@ -1,0 +1,82 @@
+*{
+    font-size:100%;
+    font-family: "Montserrat", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+.sp-logo{
+    color:black;
+}
+a:hover{
+    color:#03989E;
+}
+.navbar{
+    box-shadow: 0px 1px 15px black;
+}
+#navbarNavAltMarkup{
+    font-size:0.7em;
+}
+.container-fluid {
+    padding-top: 2em;
+    padding-bottom:2em;
+}
+p {
+    font-size: 1vw;
+}
+.margin {
+    margin-bottom: 45px;
+}
+.bg-1 { 
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+.bg-2 { 
+    background-color: #474e5d;
+    color: #ffffff;
+}
+.bg-3 { 
+    background-color: #ffffff;
+    color: #555555;
+}
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #fff;
+}
+.card{
+    margin:0;
+    padding:0;
+    font-size:1vw;
+    border:0;
+}
+footer{
+    background-color: teal;
+    font-size:1vw;
+    width:100%;
+    height:auto;
+}
+#contact{
+    background-color: lightseagreen;
+    color:black;
+    font-size: 0.7vw;
+    margin: 0;
+    padding: 0;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: left;
+}
+.col-sm-5 p {
+    padding: 0;
+    margin:0;
+    font-size: 2em;
+}
+span{
+    font-size:5vw;
+    text-align: left;
+}
+
